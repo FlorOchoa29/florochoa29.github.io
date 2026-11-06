@@ -31,14 +31,16 @@ header{
     text-decoration: none;
     font-weight: bold;
 }
-.header-buttons .btnReserva{
-    background-color: #00aaff;
-    color: #fff;
-    border: none;
+.btnReserva{
+    margin-top: 10px;
+    background-color: transparent;
+    color: #00cfff;
+    text-decoration: none;
+    border: 1px solid #00aaff;
     padding: 10px 20px;
     border-radius: 6px;
-    cursor: pointer;
     transition: 0.2 ease-in all;
+    cursor: pointer;
 }
 #hero{
     background-image: url("../img/Fondo1.jpeg");
@@ -125,5 +127,138 @@ header{
 .icono h3{
     font-size: 1.1rem;
     margin-bottom: 5px;
+}
+#habitaciones{
+    background-color: #001f3f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.product-card{
+    background-color: #fff;
+    color: #001f3f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.product-card img{
+    width: 70%;
+    height: 70%;
+    border-radius: 8px
+}
+.card-info ul{
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+.card-info ul li{
+    margin: 8px 0;
+}
+.card-info i{
+    color: #00cfff;
+    width: 20px;
+}
+.btn-card{
+    display: inline-block;
+    margin-top: 10px;
+    color: #00cfff;
+    text-decoration: none;
+    border: 1px solid #00cfff;
+    padding:5px 12px;
+}
+.btn-card:hover{
+    background: #00cfff;
+    color:white ;
+
+}
+#experiencias{
+    background-color: #003366;
+    padding: 60px 40px;
+    text-align: center;
+}
+#experiencias h2{
+    color: white;
+}
+#experiencias p{
+    color: white;
+}
+.experience-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.experience-card{
+    padding: 20px;
+    color: #fff;
+}
+.experience-card i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid #00cfff;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #00cfff;
+    margin-bottom: 20px;
+}
+.experience-card h3{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.experience-card p{
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+.restaurante{
+     padding: 80px 5%;
+    color: #001f3f;   
+}
+.restaurante-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+div.restaurante-img{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+div.restaurante-img img{
+    width: 100%;
+    height: 100%;
+}
+.restaurante-info {
+    padding: 60px 40px;
+    text-align: center;
+}
+.restaurante-container h2{
+    margin-bottom: 10px;
+}
+.restaurante p{
+    text-align: left;
+    margin-bottom: 50px;
+    color: #001f3f;
+}
+.restaurante-caracteristica{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+.caracteristica i{
+    font-size: 35px;
+    color: #001f3f;
+    margin-bottom: 15px;
+}
+.caracteristica h3{
+    font-size: 1rem;
+    font-weight: normal;
 }
 
